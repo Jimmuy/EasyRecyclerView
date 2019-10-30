@@ -1,1 +1,2 @@
-include ':easyrecyclerview', ':demo'
+include ':app', ':easyrecyclerview'
+rootProject.name='FixEasyRecyclerView'

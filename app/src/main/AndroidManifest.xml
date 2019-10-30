@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jude.dome">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.example.fixeasyrecyclerview.dome.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.fixeasyrecyclerview.dome.loadmore.RefreshAndMoreActivity"
+            android:label="@string/refresh_and_more"></activity>
+        <activity
+            android:name="com.example.fixeasyrecyclerview.dome.multistyle.MultiStyleActivity"
+            android:label="@string/multi_style"></activity>
+        <activity
+            android:name="com.example.fixeasyrecyclerview.dome.header.HeaderFooterActivity"
+            android:label="@string/header_and_footer"></activity>
+        <activity
+            android:name="com.example.fixeasyrecyclerview.dome.collapsing.CollapsingActivity"
+            android:label="@string/collapsing"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.fixeasyrecyclerview.dome.staggeredgrid.StaggeredGridActivity"
+            android:label="@string/staggered_grid" />
+        <activity
+            android:name="com.example.fixeasyrecyclerview.dome.horizontal.HorizontalActivity"
+            android:label="@string/horizontal" />
+        <activity
+            android:name="com.example.fixeasyrecyclerview.dome.sticky.StickyHeaderActivity"
+            android:label="@string/stiky_header" />
+        <activity
+            android:name="com.example.fixeasyrecyclerview.dome.insert.InsertActivity"
+            android:label="@string/insert" />
+    </application>
+
+</manifest>
